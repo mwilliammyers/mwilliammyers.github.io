@@ -1,0 +1,17 @@
+name: deploy
+on:
+  push:
+    branches:
+      - code
+jobs:
+  build:
+    name: shalzz/zola-deploy-action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: shalzz/zola-deploy-action@master
+        env:
+          PAGES_BRANCH: master
+          BUILD_DIR: ./
+          BUILD_FLAGS: --drafts
+          TOKEN: ${{ secrets.TOKEN }}
