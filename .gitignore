@@ -1,0 +1,7 @@
+# ignore zola directories; use the `code` branch instead
+config.toml
+content/
+sass/
+static/
+templates/
+themes/
