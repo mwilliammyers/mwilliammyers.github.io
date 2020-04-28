@@ -1,9 +1,28 @@
 base_url = "./"
-compile_sass = false
-highlight_code = true
+title = "mwilliammyers"
+
+compile_sass = true
+highlight_code = false
 build_search_index = false
 
 theme = "hallo"
 
+[extra]
+greeting = "Hello!"
+iam = "I am"
+
+links = [
+    { title = "E-Mail", url = "mailto:mwilliammyers@gmail.com", iconset = "fas", icon = "envelope" },
+    { title = "LinkedIn", url = "https://linkedin.com/in/mwilliammyers", icon = "linkedin" },
+    { title = "GitHub", url = "https://github.com/mwilliammyers", icon = "github" },
+    { title = "Google Scholar", url = "https://scholar.google.com/citations?user=ffyW-PcAAAAJ&hl=en", iconset = "fas", icon = "graduation-cap" },
+    { title = "Twitter", url = "https://twitter.com/mwilliammyers", icon = "twitter" },
+]
+
 [extra.author]
 name = "William Myers"
+
+[extra.theme]
+background = "#455A64"
+foreground = "#CFD8DC"
+hover = "#263238"
