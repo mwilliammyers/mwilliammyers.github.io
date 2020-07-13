@@ -23,6 +23,7 @@ links = [
 name = "William Myers"
 
 [extra.theme]
+# background = "#2D3E49"
 background = "#455A64"
 foreground = "#CFD8DC"
 hover = "#263238"
